@@ -1,0 +1,61 @@
+body{
+    background-color:rgb(239, 230, 213);
+}
+
+.productProfile{
+position: relative;
+    background-color: white;
+box-shadow: 0px 5px 7px 2px #ccc;
+transition-duration:  0.3s;
+bottom: 0;
+width: 280px !important;
+}
+.productProfile:hover{
+bottom: 10px;
+box-shadow: 0px 5px 7px 2px #ccc;
+}
+#productSection{
+position: relative;
+top: 60px;
+}
+.productProfile div:last-child{
+padding: 15px;
+}
+.productProfile button{
+    background-color: rgb(207, 13, 13);
+    border: none;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px 25px;
+box-shadow: 0px 5px 7px 2px #ccc;
+font-weight: 600;
+transition-duration: 0.3s;
+cursor: pointer;
+}
+.productProfile button:hover{
+    background-color: rgb(0, 0, 0);
+}
+#productSection{
+    margin-bottom:160px;
+}
+#productSection ul{
+gap: 30px !important;
+}
+#productSection li{
+background-color: white;
+padding: 7px 15px;
+font-weight: 700;
+box-shadow: 0px 5px 7px 2px #ccc;
+border-radius: 5px;
+cursor: pointer;
+transition-duration: 0.3s;
+}
+#productSection li:hover{
+background-color: rgb(53, 48, 48);
+color: white;
+}
+#productSection .active{
+background-color: black;
+color: white;
+}
