@@ -1,0 +1,58 @@
+body{
+    background-color:rgb(239, 230, 213);
+}
+#section2{
+    margin-top:120px !important;
+    margin-bottom:40px;
+}
+#section2 li{
+    background-color:white;
+}
+.tableParent{
+    width:90% !important;
+    margin: 0 auto;
+}
+table{
+    border-bottom:1px #ecd1d1 solid !important;
+}
+.tableParent button{
+background-color: rgb(238, 68, 68);
+color:white;
+border: none;
+padding:5px 15px;
+border-radius: 5px;
+
+}
+.tableParent button:hover{
+    background-color: rgb(211, 61, 61);
+}
+#reservations,#borrowed{
+    display: none;
+}
+#lineParent{
+    margin-bottom:60px;
+}
+footer{
+    position: relative;
+    bottom: -150px !important;
+}
+
+#searchUsers,#searchUserslab{
+    padding:4px;
+    border-radius:5px;
+    border:1px rgba(0, 0, 0, 0.24) solid;
+    margin:10px 0;
+}
+#searchUserslab{
+background-color:black;
+color:white;
+margin-left:-5px;
+border:none;
+transition-duration:0.3s;
+cursor:pointer;
+padding:4px 20px !important;
+}
+#searchUserslab:hover{
+background-color:rgba(0, 0, 0, 0.664);
+}
+
