@@ -43,12 +43,6 @@ include "header_admin.php";
               <p><b>Manage Users And Reservation</b></p>
             </div>
           </div>
-          <div class="adminSectionProfile">
-            <div><a href="./archive.php "><img src="../images/viktor-talashuk-05HLFQu8bFw-unsplash.jpg" alt="product"></a></div>
-            <div class="Cinfo">
-              <p><b>Archive (Reservations , Borrowins)</b></p>
-            </div>
-          </div>
           </div>
 </section>
 
